@@ -1,7 +1,6 @@
 from flask import Flask, request
 from dotenv import load_dotenv
 import requests
-import json
 import os
 
 app = Flask(__name__)
